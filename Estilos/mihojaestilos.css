@@ -1,0 +1,251 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica;
+    
+}
+a
+{
+    text-decoration : none;
+}
+.menu{
+
+    list-style: none;
+    padding: 0%;
+    top: 0%;
+    background-color: black;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+display: inline-block;
+text-align:center ;
+}
+.caja1 
+{
+top: 500px;
+background-color: rgb(252, 247, 247);
+width: 100% ;
+height: 600px ;
+text-transform: capitalize;
+
+
+}
+
+.caja2
+ {
+background-color: black;
+width: 100%;
+height: 500px ;
+
+
+}
+.caja2 h1 
+{
+text-transform: capitalize;
+color: white;
+}
+.caja2 h2
+{
+color: white;
+}
+.caja3
+ {
+background-color: black;
+width: 100%;
+height: 600px ;
+
+}
+.caja3 h1 
+{
+text-transform: capitalize;
+color: white;
+}
+.caja3 h2
+{
+color: white;
+}
+.caja4
+{
+    background-color: rgb(218, 214, 214);
+    width: 49% ;
+    height: 500px ;
+    position: relative;
+   padding: auto;
+}
+
+
+.caja5
+{
+    background: rgb(102,170,179);
+    background: linear-gradient(132deg, rgba(102,170,179,1) 0%, rgba(199,192,190,1) 78%, rgba(151,215,214,1) 98%);
+    width: 49% ;
+    height: 500px ;
+    position: relative;
+    float: right;
+    top: -500px;
+ 
+
+}
+
+.caja6
+{
+    background: rgb(102,170,179);
+    background: linear-gradient(132deg, rgba(102,170,179,1) 0%, rgba(201,75,39,1) 47%, rgba(191,215,151,1) 93%);
+    width: 49%;
+    height: 550px ;
+  
+    position: relative;
+    top: 40px;
+ 
+    
+}
+.caja7
+{
+    background: rgb(242,242,242);
+background: linear-gradient(0deg, rgba(242,242,242,1) 0%, rgba(0,0,0,1) 52%, rgba(0,0,0,1) 100%);
+    width: 49%;
+    height: 500px ;
+    
+    position: relative;
+    left:51% ;
+    
+    
+}
+.caja7 h1
+{
+    color: cornsilk;
+}
+.caja7 p
+{
+    color: cornsilk;
+}
+.caja6 h1
+{
+color: azure;
+}
+.caja6 p
+{
+color: azure;
+}
+
+.caja8
+{ 
+    background: rgb(102,170,179);
+    background: linear-gradient(132deg, rgba(102,170,179,1) 0%, rgba(201,75,39,1) 47%, rgba(191,215,151,1) 93%);
+    width: 49%;
+    position: relative;
+    top: -540px;
+}
+.caja9
+{
+    background: rgb(102,170,179);
+background: linear-gradient(132deg, rgba(102,170,179,1) 9%, rgba(146,201,39,1) 51%, rgba(138,205,26,1) 94%);
+    width: 49%;
+    height: 430px;
+    position: relative;
+    top: -540px;
+}
+.caja10
+{
+    background: rgb(98,193,199);
+    background: linear-gradient(180deg, rgba(98,193,199,1) 0%, rgba(204,208,195,1) 77%, rgba(144,124,89,1) 97%, rgba(113,96,70,1) 100%);
+    width: 49%;
+    height: 430px;
+    position: relative;
+    left: 50%;
+    top: -990px;
+
+}
+.contenedor-swiper
+
+{
+    top: -960px;
+    color: white;
+    position: relative;
+    height: 560px;
+    width: 1330px;
+    background: rgb(70,158,210);
+background: radial-gradient(circle, rgba(70,158,210,1) 60%, rgba(78,97,158,1) 69%);
+}
+.swiper {
+  
+  top: 30px;
+    width: 90%;
+    height: 500px;
+  }
+  #sli
+  {
+    background: rgb(0,12,24);
+    background: linear-gradient(180deg, rgba(0,12,24,1) 0%, rgba(1,82,161,1) 100%);
+  }
+  #sli2
+  {
+    background: rgb(1,82,161);
+    background: linear-gradient(180deg, rgba(1,82,161,1) 5%, rgba(0,12,24,1) 94%);
+  }
+  #imgsli2
+  {
+    height: auto;
+    width: auto;
+    max-width: 700px;
+    max-height: 700px;
+
+  }
+  #sli3
+  {
+    background: rgb(1,82,161);
+    background: linear-gradient(180deg, rgba(1,82,161,1) 14%, rgba(0,12,24,1) 54%);
+  }
+  #imgsli3
+  {
+      height: auto;
+      width: auto;
+      max-width: 650px;
+      max-height: 650px;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: rgb(172, 46, 46);
+  
+  
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .ejem
+  {
+    width: 400px;
+    height: 400px;
+   background-color: blue;
+
+  }
+  .footer
+  {
+      background-color: rgba(224, 223, 217, 0.788);
+      width: 100%;
+      height: 300px;
+  }
