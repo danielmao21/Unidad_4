@@ -1,6 +1,7 @@
 body{
     background-color: white;
     font-family: Arial, Helvetica;
+    position: relative;
     
 }
 a
@@ -249,3 +250,21 @@ background: radial-gradient(circle, rgba(70,158,210,1) 60%, rgba(78,97,158,1) 69
       width: 100%;
       height: 300px;
   }
+  #logo {
+    width:180px;
+  }
+  .iconaple
+  {
+    position: relative;
+    top: -940px;
+     background: rgb(245,151,45);
+    background: linear-gradient(0deg, rgba(245,151,45,1) 0%, rgba(216,58,119,1) 100%);;
+  }
+  .box {
+    cursor: pointer;
+  }
+  
+  .pink {
+    background-color: pink;
+  }
+  
